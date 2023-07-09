@@ -1,0 +1,496 @@
+.sidebar-header{
+    background-color: #ed7417;
+    height: auto;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.sidebar-tabs > li.active, .sidebar-tabs > ul > li.active {
+    background-color: #ffffff;
+}
+
+.sidebar-close{
+    margin-top: 2px;
+}
+
+.sidebar-pane{
+    min-width: 0px;
+}
+
+button[disabled]{
+	background-color:grey;
+}
+
+.copyright{
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+#map {
+    height:77%;
+}
+    
+.sidebar{
+    width: 60%;
+    margin-top: 70px;
+    height: 85.5%;
+}
+
+.links_container{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.title_tab{
+	    display: flex; 
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.links_h3{
+    padding-top: 5px;
+
+}
+
+.sidebar.collapsed{
+    margin-top: 70px;
+}
+
+.text-btn {
+    border: none;
+    background-color: inherit;
+    color:#1760a8;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+
+.comments{
+    text-align: justify;
+    justify-content: flex-end;
+    margin-right: 4px;
+    font-size: 13px;
+}
+
+.button_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+  
+  /* On mouse-over */
+  .text-btn:hover {text-decoration:underline;}
+
+
+.imagen{
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #4c9ef0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+    .sidebar{
+        height: 77%;
+        width: 58%;
+
+    }
+
+    @media only screen and (min-height: 550px) {
+        #map {
+            height: 73%;
+    
+            }
+        }
+
+
+
+    @media only screen and (min-height: 580px) {
+        #map {
+            height: 74%;
+    
+            }
+        }
+
+        @media only screen and (min-height: 610px) {
+            #map {
+                height: 75%;
+        
+                }
+            }
+
+            @media only screen and (min-height: 630px) {
+                #map {
+                    height: 76%;
+            
+                    }
+                }
+
+                @media only screen and (min-height: 660px) {
+                    #map {
+                        height: 77%;
+                
+                        }
+                    }
+                    @media only screen and (min-height: 680px) {
+                        #map {
+                            height: 78%;
+                    
+                            }
+                        }
+                        @media only screen and (min-height: 716px) {
+                            #map {
+                                height: 79%;
+                        
+                                }
+                            }
+
+                            @media only screen and (min-height: 750px) {
+                                #map {
+                                    height: 80%;
+                            
+                                    }
+                                }  
+                                @media only screen and (min-height: 788px) {
+                                    #map {
+                                        height: 81%;
+                                
+                                        }
+                                    }                    
+
+        @media only screen and (min-height: 830px) {
+            #map {
+                height: 82%;
+        
+                }
+            .sidebar{
+                    width: 58%;
+        
+                }
+            }
+
+            @media only screen and (min-height: 877px) {
+                #map {
+                    height: 83%;
+            
+                    }
+                .sidebar{
+                        width: 58%;
+            
+                    }
+                }
+
+                @media only screen and (min-height: 928px) {
+                    #map {
+                        height: 84%;
+                
+                        }
+                    .sidebar{
+                            width: 58%;
+                
+                        }
+                    }
+
+                    @media only screen and (min-height: 984px) {
+                        .sidebar{
+                                width: 58%;
+                    
+                            }
+                            #map {
+                                height: 85%;
+                        
+                                }
+                        }
+
+                    @media only screen and (min-height: 1000px) {
+                        #map {
+                            height: 85%;
+                    
+                            }
+                        }
+                        @media only screen and (min-height: 1023px) {
+                            #map {
+                                height: 86%;
+                        
+                                }
+  
+                            }
+                            @media only screen and (min-height: 1123px) {
+                                #map {
+                                    height: 87%;
+                            
+                                    }
+      
+                                }
+                            @media only screen and (min-height: 1179px) {
+                                #map {
+                                    height: 88%;
+                            
+                                }
+                                }
+                                @media only screen and (min-height: 1300px) {
+                                    #map {
+                                        height: 89%;
+                                
+                                    }
+                                    }
+                              
+    
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 410px) {
+    .sidebar{
+            width: 58%;
+
+        }
+    }
+
+    
+    @media only screen and (min-width: 578px) {
+        .sidebar{
+            width: 44%;
+
+        }
+        .imagen{
+            width: 100%;
+ 
+        }
+
+    }
+
+    
+    @media only screen and (min-width: 600px) {
+
+    .sidebar{
+            width: 44%;
+
+        }
+    }
+    
+    @media only screen and (min-width: 678px) {
+
+    .sidebar{
+            width: 44%;
+
+        }    
+    
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    justify-content: center;
+
+  }
+  .button {
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    }
+
+}
+    
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+    
+    @media only screen and (min-width: 768px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+    .sidebar{
+            height: 385px;
+            width: 30%;
+    }
+
+
+    .img_container{
+        
+    }
+
+.sidebar-left.collapsed ~ .sidebar-map .leaflet-left {
+    left: 50px;
+}
+
+    .wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        justify-content: center;
+      }
+      
+      .button {
+        width: 100%;
+        height: 40px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #ffffff;
+        background-color: #4c9ef0;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        }
+      
+ 
+
+    }
+
+ @media only screen and (min-width: 810px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+    .sidebar{
+            height: 420px;
+            width: 36%;
+    }
+
+    .img_container{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .imagen{
+        width: 70%;
+        height: 100px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+
+
+            
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    justify-content: center;
+
+  }
+  .button {
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin-left: 8px;
+    }
+  
+    }
+
+ @media only screen and (min-width: 870px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+    .sidebar{
+            margin-top:70px;
+            height: 380px;
+            width: 33%;
+
+    }
+    .sidebar.collapsed{
+        height: 350px;
+}
+    }
+
+ @media only screen and (min-width: 940px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+
+    }
+
+@media only screen and (min-width: 991px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+
+    .imagen{
+        width: 70%;
+        height: 180px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    }
+
+
+@media only screen and (min-width: 1100px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+
+    .imagen{
+        width: 70%;
+        height: 180px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    }
+
+@media only screen and (min-width: 1200px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+
+    }
+
+@media only screen and (min-width: 1330px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+
+    }
+
+@media only screen and (min-width: 1456px) {
+    #map {
+            margin-top:0px;
+            width: 100%;
+        }
+
+    }
